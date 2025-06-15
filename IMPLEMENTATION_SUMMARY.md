@@ -29,7 +29,7 @@ This Maven project demonstrates a complete implementation of **Data-Oriented Pro
 
 ### 4. **Package Organization**
 ```
-com.example.author/
+jug.istanbul.author/
 ├── domain/
 │   ├── model/          # Value Objects & Entities
 │   └── service/        # Domain Services & Repository Contracts
@@ -49,10 +49,10 @@ com.example.author/
 ### Execute Demos
 ```bash
 # Basic DOP demonstration
-mvn exec:java -Dexec.mainClass="com.example.App"
+mvn exec:java -Dexec.mainClass="jug.istanbul.App"
 
 # Advanced DDD + DOP demonstration  
-mvn exec:java -Dexec.mainClass="com.example.DddDopDemo"
+mvn exec:java -Dexec.mainClass="jug.istanbul.DddDopDemo"
 ```
 
 ### Run Tests

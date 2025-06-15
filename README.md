@@ -11,10 +11,10 @@ A comprehensive Maven project demonstrating how to combine **Data-Oriented Progr
 ### Run the Demonstrations
 ```bash
 # Basic DOP principles demonstration
-mvn exec:java -Dexec.mainClass="com.example.App"
+mvn exec:java -Dexec.mainClass="jug.istanbul.App"
 
 # Advanced DDD + DOP integrated architecture
-mvn exec:java -Dexec.mainClass="com.example.DddDopDemo"
+mvn exec:java -Dexec.mainClass="jug.istanbul.DddDopDemo"
 ```
 
 ### Execute Tests
@@ -50,7 +50,7 @@ This project showcases the evolution from traditional object-oriented programmin
 
 ### Package Organization
 ```
-com.example.author/
+jug.istanbul.author/
 ├── domain/
 │   ├── model/              # Value Objects & Entities
 │   │   ├── AuthorEntity    # Core business entity

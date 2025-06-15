@@ -5,7 +5,7 @@ This project demonstrates how **Data-Oriented Programming (DOP)** can be effecti
 ## 📦 Package Structure
 
 ```
-com.example.author/
+jug.istanbul.author/
 ├── domain/
 │   ├── model/              # Domain Entities and Value Objects
 │   │   ├── AuthorEntity.java     # Aggregate Root (Entity)
