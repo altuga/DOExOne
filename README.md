@@ -1,6 +1,6 @@
-# My Maven Project
+# DO Project 
 
-This is a simple Maven project that demonstrates the structure and functionality of a basic Java application.
+This is a simple DO project that demonstrates the structure and functionality of a basic Java application.
 
 ## Project Structure
 
