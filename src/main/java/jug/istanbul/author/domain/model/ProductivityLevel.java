@@ -18,6 +18,17 @@ public enum ProductivityLevel {
         return displayName;
     }
     
+    // Java 21 enhanced pattern matching with switch expressions
+    public String getDescription() {
+        return switch (this) {
+            case ASPIRING -> "Just starting their writing journey";
+            case BEGINNER -> "Getting their first books published";
+            case DEVELOPING -> "Building their reputation and skills";
+            case ESTABLISHED -> "Well-known author with consistent output";
+            case PROLIFIC -> "Exceptionally productive and influential author";
+        };
+    }
+    
     @Override
     public String toString() {
         return displayName;

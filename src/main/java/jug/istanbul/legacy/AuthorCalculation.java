@@ -9,10 +9,11 @@ public class AuthorCalculation {
     }
     
     public static String getProductivityLevel(AuthorData author) {
-        if (author.books() == 0) return "Aspiring";
-        if (author.books() <= 5) return "Beginner";
-        if (author.books() <= 10) return "Developing";
-        if (author.books() <= 100) return "Established";
-        return "Prolific";
+        return switch (author.books()) {
+            case 0 -> "Aspiring";
+            case 1, 2, 3, 4, 5 -> "Beginner";
+            case 6, 7, 8, 9, 10 -> "Developing";
+            default -> author.books() <= 100 ? "Established" : "Prolific";
+        };
     }
 }

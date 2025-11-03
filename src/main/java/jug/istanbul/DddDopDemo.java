@@ -12,7 +12,14 @@ import jug.istanbul.author.infrastructure.InMemoryAuthorRepository;
 // Demo application showing DDD tactical patterns with DOP
 public class DddDopDemo {
     public static void main(String[] args) {
-        System.out.println("=== DDD Tactical Patterns + Data-Oriented Programming Demo ===\n");
+        var demoHeader = """
+            ╔═══════════════════════════════════════════════════════════════╗
+            ║   DDD Tactical Patterns + Data-Oriented Programming Demo     ║
+            ║   Using Java 21 Features for Enhanced Code Quality           ║
+            ╚═══════════════════════════════════════════════════════════════╝
+            """;
+        
+        System.out.println(demoHeader);
         
         // Setup
         AuthorRepository repository = new InMemoryAuthorRepository();
